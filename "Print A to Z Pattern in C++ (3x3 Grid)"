@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n=3;
+    char ch = 'A'; // we define character first to store our char value
+    //int num = 1;
+    for(int i=0; i<n; i++){ //outer loop for structure
+        for(int j=0;j<n;j++){ // inner loop for write the pattern
+            cout<<ch; //innner loop work and then print ch which store value A
+            ch+=1;// after A value become s to B and then loops work             
+        }
+        cout<<endl;
+    }
+}
